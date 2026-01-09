@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid efef6bbc-20fe-46b1-ba88-a69230a81549)
+	(uuid "efef6bbc-20fe-46b1-ba88-a69230a81549")
 	(paper "A4")
+	(title_block
+		(title "MSPM0 Board")
+		(date "2026-01-09")
+		(rev "A")
+		(company "Slemanz")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
