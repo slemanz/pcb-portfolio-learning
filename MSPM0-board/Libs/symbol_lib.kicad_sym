@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MSPM0G3507SPTR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MCU 32BIT 128KB FLASH 48LQFP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -929,6 +929,17 @@
 				(fill
 					(type color)
 					(color 255 255 194 1)
+				)
+			)
+			(text "TEXAS\nINSTRUMENTS\nMSPM063507\nLQFP-48"
+				(at 10.16 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+						(color 0 0 0 1)
+					)
 				)
 			)
 		)
