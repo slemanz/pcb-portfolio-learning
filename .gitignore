@@ -1,5 +1,5 @@
 # KICAD FILES
-# Temporary Files
+## Temporary Files
 *.OOO
 *.bak
 *.bck
@@ -13,9 +13,12 @@ fp-info-cache
 *autosave*
 *.lck
 
-# Netlist files
+## Netlist files
 *.net
 
-# Exported BOM files
+## Exported BOM files
 *.xml
 *.csv
+
+# Other
+temp
