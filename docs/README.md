@@ -73,3 +73,23 @@ Define in PCB editor: File -> Board Setup -> Design Rules -> Constraints
 | Include stackup height in track length calculations| On       |
 
 ## Stackup (4 layers)
+
+Define in PCB editor: File -> Board Setup -> Board Stackup -> Physical Stackup
+
+Based on JLCPCB JLC04161H-7628 (1.6 mm).
+
+| **Layer** | **Type** | **Material** | **Thickness** | **Epsilon R** | **Loss Tan** |
+|---|---|---|---|---|---|
+| F.Mask       | Mask    | -        | 0.01 mm    | 3.3       | 0        |
+| F.Cu         | Copper  | -        | 0.035 mm   | -         | -        |
+| Dielectric 1 | PrePreg | FR4      | 0.2104 mm  | 4.5       | 0.02     |
+| In1.Cu       | Copper  | -        | 0.0152 mm  | -         | -        |
+| Dielectric 2 | Core    | FR4      | 1.065 mm   | 4.5       | 0.02     |
+| In2.Cu       | Copper  | -        | 0.0152 mm  | -         | -        |
+| Dielectric 3 | PrePreg | FR4      | 0.2104 mm  | 4.5       | 0.02     |
+| B.Cu         | Copper  | -        | 0.035 mm   | -         | -        |
+| B.Mask       | Mask    | -        | 0.01 mm    | 3.3       | 0        |
+
+Board thickness: 1.6062 mm
+
+## Custom Rules
