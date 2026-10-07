@@ -93,3 +93,19 @@ Based on JLCPCB JLC04161H-7628 (1.6 mm).
 Board thickness: 1.6062 mm
 
 ## Custom Rules
+
+Define in PCB editor: File -> Board Setup -> Design Rules -> Custom Rules
+
+Allows silk and courtyard overlap between connectors (J*) placed side by side.
+
+```
+(rule "Allow silk overlap between J connectors"
+    (severity exclusion)
+    (constraint silk_clearance)
+    (condition "A.memberOfFootprint('J*') && B.memberOfFootprint('J*')"))
+
+(rule "Allow courtyard overlap between J connectors"
+    (severity exclusion)
+    (constraint courtyard_clearance)
+    (condition "A.Reference == 'J*' && B.Reference == 'J*'"))
+```
